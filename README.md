@@ -1,0 +1,2 @@
+# medicine_recommendation_dashboard
+Medicine Recommendation dashboard with Streamlit
