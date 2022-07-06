@@ -1,11 +1,11 @@
 import streamlit as st
 
 
-with open('About.css') as file:
+with open('style/About.css') as file:
     st.markdown(f'<style>{file.read()}</style>', unsafe_allow_html = True)
 
 
-def start_home():
+def about():
     st.title("About the Project")
     st.subheader("1. The Introduction")
     st.markdown("This project are created for the **educational purposes**. All the reviews are the developer\
@@ -18,5 +18,3 @@ def start_home():
                 methods for **educational purposes**")
 
 
-if __name__ == '__main__':
-    start_home()
