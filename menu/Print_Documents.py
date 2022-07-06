@@ -1,3 +1,4 @@
+from fpdf import FPDF as pdf
 import streamlit as st
 
 with open('style/Print_Documents.css') as file:

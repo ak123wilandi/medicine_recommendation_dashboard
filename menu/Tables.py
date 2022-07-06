@@ -13,5 +13,7 @@ def tables():
     st.title("Table Data")
     data = pd.DataFrame(pd.read_csv(DATA))
     name, desc = data['Name'].head(5).to_list(), data[['Description']].head(5)
-    for n in name:
-        st.metric(n, randint(10, 16))
+    st.metric(name[0], 15)
+
+    
+    
