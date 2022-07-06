@@ -1,0 +1,2 @@
+Icons = https://icons.getbootstrap.com/
+Multi Page Streamlit = https://medium.com/codex/create-a-multi-page-app-with-the-new-streamlit-option-menu-component-3e3edaf7e7ad
